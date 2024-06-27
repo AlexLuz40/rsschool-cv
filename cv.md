@@ -23,3 +23,26 @@
   - CSS
   - GitHub
   - JS
+
+**Code Example**
+
+```
+    function numFib(n) {
+        let arr = [0, 1],
+        x = 0;
+        for (let i = 0; i < (n - 1); i++) {
+            x = arr[arr.length - 1] + arr[arr.length - 2];
+            arr.push(x);
+            x = 0;
+        }
+        return arr;
+    }
+```
+
+- **Education**
+  1. Mozyr State University
+  2. Courses :
+     1. Udemy :
+        - WEB - developer [https://github.com/AlexLuz40/my_portfolio-udemy-.git]
+
+**English** - A2
