@@ -14,32 +14,40 @@
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#about-me">About me</a></li>
+          <li class="navigation-item"><a href="#skills">Skills</a></li>
+          <li class="navigation-item"><a href="#code">Code</a></li>
+          <li class="navigation-item"><a href="#contacts">Contacts</a></li>
+          <li class="navigation-item"><a href="#education">Education</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="wrapper">
         <h2>Aliaksandr Luzan</h2>
         <h1>Frontend developer</h1>
-        <h3 class="title">About me</h3>
+        <h3 class="title" id="about-me">About me</h3>
         <p class="paragraph">I like to study and learn something new. I like to read books, listen to music of different genres.<br>I can spend a lot of time doing what interests me.<br>My core strengths are in problem solving and fast learning.</p>
         <div class="container">
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Communicable</li>
-            <li>Teamwork</li>
-            <li>Purposeful</li>
+          <h3 id="skills">Soft Skills</h3>
+          <ul class="lattice">
+            <li class="lattice-item">Communicable</li>
+            <li class="lattice-item">Teamwork</li>
+            <li class="lattice-item">Purposeful</li>
           </ul>
         </div>
         <div class="container">
           <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>GitHub</li>
-            <li>JS</li>
+          <ul class="lattice">
+            <li class="lattice-item">HTML</li>
+            <li class="lattice-item">CSS</li>
+            <li class="lattice-item">GitHub</li>
+            <li class="lattice-item">JS</li>
           </ul>
         </div>
-        <h3 class="title">Code Example</h3>
+        <h3 class="title" id="code">Code Example</h3>
         <p class="example">
           function pow(x, n) {
             if (n === 0) {
@@ -62,18 +70,18 @@
         >
         </div>
         <div class="container">
-          <h3>My contacts</h3>
-          <ul>
-            <li>
+          <h3 id="contacts">My contacts</h3>
+          <ul class="lattice">
+            <li class="lattice-item">
               Phone:<a href="tel:+48796522099" class="link-tel">+48 796-522-099</a>
             </li>
-            <li>Email: <a href="emailto:luzanaliaksandr@gmail.com" class="link-mail">luzanaliaksandr@gmail.com</a></li>
-            <li>GitHub: AlexLuz40</li>
-            <li>Discord: alex_530291</li>
-            <li>Poznan, Poland</li>
+            <li class="lattice-item">Email: <a href="emailto:luzanaliaksandr@gmail.com" class="link-mail">luzanaliaksandr@gmail.com</a></li>
+            <li class="lattice-item">GitHub: AlexLuz40</li>
+            <li class="lattice-item">Discord: alex_530291</li>
+            <li class="lattice-item">Poznan, Poland</li>
           </ul>
         </div>
-        <h3 class="title">Education</h3>
+        <h3 class="title" id="education">Education</h3>
         <p><b>Mozyr State Pedagogical University</b></p><br>
         <div><b>Courses:</b><br>
           <span class="course">1.Udemy:</span><br>
@@ -81,6 +89,19 @@
         </div>
       </aside>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="logo">
+          <a href="#" class="link-social"><img src="img/facebook.svg" alt="facebook"></a>
+          <a href="#" class="link-social"><img src="img/github.svg" alt="github"></a>
+          <a href="#" class="link-social"><img src="img/instagram_new.svg" alt="instagram"></a>
+          <a href="#" class="link-social teleg"><img src="img/telegram.svg" alt="telegram"></a>
+        </div>
+        <div class="data-study">2024</div>
+        <div class="img-rs">
+          <a href="https://rs.school/courses/javascript-ru" class="link-rs"><img src="img/rsschool-logo.svg" alt="rsschool"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
