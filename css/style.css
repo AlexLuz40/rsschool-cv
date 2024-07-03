@@ -1,0 +1,8 @@
+.myPhoto {
+  width: 240px;
+  height: 320px;
+
+  img {
+    width: 100%;
+  }
+}
