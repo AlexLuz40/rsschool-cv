@@ -17,46 +17,68 @@
       <nav></nav>
     </header>
     <main>
-      <div>
-        <h1>Aliaksandr Luzan</h1>
-        <h2>Front-End developer</h2>
-        <h3>About me</h3>
-        <p>I like to study and learn something new. I like to read books, listen to music of different genres.<br>I can spend a lot of time doing what interests me.<br>My core strengths are in problem solving and fast learning.</p>
-        <h3>Soft Skills</h3>
-        <h3>Tech Skills</h3>
-        <h3>Code Example</h3>
-        <h3>Languages</h3>
+      <div class="wrapper">
+        <h2>Aliaksandr Luzan</h2>
+        <h1>Frontend developer</h1>
+        <h3 class="title">About me</h3>
+        <p class="paragraph">I like to study and learn something new. I like to read books, listen to music of different genres.<br>I can spend a lot of time doing what interests me.<br>My core strengths are in problem solving and fast learning.</p>
+        <div class="container">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Communicable</li>
+            <li>Teamwork</li>
+            <li>Purposeful</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>Tech Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GitHub</li>
+            <li>JS</li>
+          </ul>
+        </div>
+        <h3 class="title">Code Example</h3>
+        <p class="example">
+          function pow(x, n) {
+            if (n === 0) {
+                return 1;
+            } else if (n === 1) {
+                return x;
+            } else {
+                return x * pow(x, n - 1);
+            }
+          }
+        </p>
+        <h3 class="title">Languages:</h3>
         <p><b>English</b> - A2</p>
       </div>
       <aside>
         <div class="myPhoto">
           <img
-          src="img/android-icon-96x96.png"
+          src="img/main_bg.jpg"
           alt=""
         >
         </div>
-        <h3>My contacts</h3>
-        <ul>
-          <li>Phone: +48 796-522-099</li>
-          <li>Email: luzanaliaksandr@gmail.com</li>
-          <li>GitHub: AlexLuz40</li>
-          <li>Discord: alex_530291</li>
-          <li>Poznan, Poland</li>
-        </ul>
-        <h3>Education</h3>
-        <ol>
-          <li>Mozyr State Pedagogical University</li>
-          <li>Courses :
-            <ul>
-              <li>
-                Udemy
-                <ol>
-                  <li>WEB - developer</li>
-                </ol>
-              </li>
-            </ul>
-          </li>
-        </ol>
+        <div class="container">
+          <h3>My contacts</h3>
+          <ul>
+            <li>
+              Phone:<a href="tel:+48796522099" class="link-tel">+48 796-522-099</a>
+            </li>
+            <li>Email: <a href="emailto:luzanaliaksandr@gmail.com" class="link-mail">luzanaliaksandr@gmail.com</a></li>
+            <li>GitHub: AlexLuz40</li>
+            <li>Discord: alex_530291</li>
+            <li>Poznan, Poland</li>
+          </ul>
+        </div>
+        <h3 class="title">Education</h3>
+        <p><b>Mozyr State Pedagogical University</b></p><br>
+        <div><b>Courses:</b><br>
+          <span class="course">1.Udemy:</span><br>
+          <span class="course-name">-WEB-developer;</span>
+        </div>
       </aside>
     </main>
     <footer></footer>
